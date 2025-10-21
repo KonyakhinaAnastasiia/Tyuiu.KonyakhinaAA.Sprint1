@@ -1,7 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-
-using Tyuiu.KonyakhinaAA.Sprint1.Task0.V11.Lib;
+﻿using Tyuiu.KonyakhinaAA.Sprint1.Task0.V11.Lib;
 
 namespace Tyuiu.KonyakhinaAA.Sprint1.Task0.V11.Test
 {
