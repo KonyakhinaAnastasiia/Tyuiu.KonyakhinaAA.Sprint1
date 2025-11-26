@@ -41,7 +41,7 @@ namespace Tyuiu.KonyakhinaAA.Sprint1.Task1.V5
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             DataService ds = new DataService();
-            Console.WriteLine("Расчет по формуле: " + ds.Calculate(x, y));
+            Console.WriteLine($"Расчет по формуле: {ds.Calculate(x, y):F3}");
             Console.ReadLine();
         }
     }
