@@ -6,7 +6,9 @@ namespace Tyuiu.KonyakhinaAA.Sprint1.Task4.V7.Lib
     {
         public double Calculate(double x, double y)
         {
-            return Math.Round((1 + Math.Sqrt(x * y)) / Math.Pow((x - 3 * y), 2), 3);
+            double res = (1 + Math.Sqrt(x * y)) / Math.Pow((x - 3 * y), 2);
+            double finalRes = Math.Truncate(res * 1000) / 1000;
+            return finalRes;
         }
     }
 }
